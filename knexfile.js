@@ -4,7 +4,7 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: 'postgres://localhost/favoriteTrails'
+    connection: 'postgres://localhost/trails'
   }
   //
   // production: {

@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 // app.use(cors);
 
-app.use('/api/v1/trails', trails)
+app.use('/api/v1/users', trails)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
